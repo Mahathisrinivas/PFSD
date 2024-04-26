@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+{% load static %}
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static "css/styleone.css" %}">
+  </head>
+  <body>
+
+  <div class="row">
+  <div class="col-sm-4">
+      <div class="card">
+          <img class="card-img-top" src="{% static 'img/t1.jpg' %}" alt="Card image cap" height="310" >
+          <div class="card-body">
+              <h5 class="card-title">BUS</h5>
+              <center><a href="{% url 'book' %}" class="btn btn-primary">BOOK NOW</a></center>
+          </div><br>
+      </div>
+  </div><br>
+
+<div class="coloumn">
+  <div class="col-sm-4">
+      <div class="card">
+          <img class="card-img-top" src="{% static 'img/t2.jpg' %}" alt="Card image cap" height="310" >
+          <div class="card-body">
+              <h5 class="card-title">TRAIN</h5>
+              <center><a href="{% url 'book' %}" class="btn btn-primary">BOOK NOW</a></center>
+          </div>
+      </div>
+  </div>
+    <br>
+    <br>
+    <div class="row">
+  <div class="col-sm-4">
+      <div class="card">
+          <img class="card-img-top" src="{% static 'img/t3.jpg' %}" alt="Card image cap" height="310" >
+          <div class="card-body">
+              <h5 class="card-title">FLIGHT</h5>
+              <center><a href="{% url 'book' %}" class="btn btn-primary">BOOK NOW</a></center>
+          </div>
+      </div>
+  </div>
+
+        <div class="row">
+  <div class="col-sm-4">
+      <div class="card">
+          <img class="card-img-top" src="{% static 'img/t4.jpg' %}" alt="Card image cap" height="310" >
+          <div class="card-body">
+              <h5 class="card-title">CAR</h5>
+              <center><a href="{% url 'book' %}" class="btn btn-primary">BOOK NOW</a></center>
+          </div><br>
+      </div>
+  </div><br>
+</div>
+
+</body>
+</html>

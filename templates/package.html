@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+{% load static %}
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static "css/styleone.css" %}">
+
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="{% static 'home/css/bootstrap.css' %}"
+  />
+  </head>
+  <body>
+<br>
+  <div class="row">
+  <div class="col-sm-4">
+      <div class="card">
+          <img class="card-img-top" src="{% static 'img/Kerala.jpg' %}" alt="Card image cap" height="310" >
+          <div class="card-body">
+              <h5 class="card-title">KERALA</h5>
+              <p class="card-text"><br> 4 days-3 Nights<br>Kerala Tour Packages Starting @10999<br>There are dime a dozen Kerala tour packages, but to pick the one that truly suits your interest whether it is nature, history, art, culture, cuisine or leisure, requires discretion</p>
+             <center><a href="{% url 'hotels' %}" class="btn btn-primary">BOOK NOW</a></center>
+          </div>
+      </div>
+  </div>
+
+
+  <div class="row" align>
+  <div class="col-sm-4">
+      <div class="card">
+        <br><br>  <img class="card-img-top" src="{% static 'img/Manali11.jpg' %}" alt="Card image cap" height="310" >
+          <div class="card-body">
+              <h5 class="card-title">KULLU&MANALI</h5>
+              <p class="card-text"><br> 7 days-6 Nights<br>MANALI Tour Packages Starting @11999<br>Himachal Pradesh covers the north front of the country, offering the tourists with some of the most wonderful hill stations in the world</p>
+             <center><a href="{% url 'hotels' %}" class="btn btn-primary">BOOK NOW</a></center>
+          </div>
+      </div>
+  </div>
+    <br>
+    <br>
+
+
+
+              <div class="row">
+  <div class="col-sm-4">
+      <div class="card">
+         <br><br><br><br><img class="card-img-top" src="{% static 'img/Cochin.jpg' %}" alt="Card image cap" height="310" >
+          <div class="card-body">
+              <h5 class="card-title">COCHIN</h5>
+              <p class="card-text"><br> 7 days-6 Nights<br>Cochin Tour Packages Starting @6999<br>Kochi, formerly known as Cochin, is a beautiful city. It is famous for its rich colonial history and old-world charm. It has been the centre of the spice and sandalwood trade with the British, Arabs, Chinese, etc </p>
+            <center><a href="{% url 'hotels' %}" class="btn btn-primary">BOOK NOW</a></center>
+          </div>
+      </div>
+  </div>
+    <br>
+    <br>
+
+              <div class="row">
+  <div class="col-sm-4">
+      <div class="card">
+          <br><br><br><br><br><br><img class="card-img-top" src="{% static 'img/kashmir.jpg' %}" alt="Card image cap" height="310" >
+          <div class="card-body">
+              <h5 class="card-title">KASHMIR</h5>
+              <p class="card-text"><br> 9 days-8 Nights<br>KASHMIR Tour Packages Starting @12999<br>What could be a better way to celebrate love and union of two people than with Kashmir honeymoon holidays? The romantic weather and beautiful landscape of this place will perfectly compliment your celebratory mood. You can visit the beautiful tourist attractions and enjoy quality time</p>
+             <center><a href="{% url 'hotels' %}" class="btn btn-primary">BOOK NOW</a></center>
+          </div>
+      </div>
+  </div>
+    <br>
+    <br>
+
+
+</body>
+</html>
